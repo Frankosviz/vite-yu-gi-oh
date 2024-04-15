@@ -6,8 +6,8 @@
 
 <script>
     export default {
-        name: 'HeaderComponent',
-        data () {
+        name: 'CardListComponent',
+        data(){
             return {
 
             }

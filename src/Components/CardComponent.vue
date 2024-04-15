@@ -5,11 +5,12 @@
 </template>
 
 <script>
+    import { store } from '../store.js';
     export default {
-        name: 'HeaderComponent',
+        name: 'CardComponent',
         data () {
             return {
-
+                store 
             }
         }
     }
