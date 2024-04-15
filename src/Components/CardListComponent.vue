@@ -9,7 +9,7 @@
         name: 'CardListComponent',
         data(){
             return {
-
+                
             }
         }
     }

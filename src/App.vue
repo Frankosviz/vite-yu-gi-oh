@@ -7,6 +7,11 @@
 </template>
 
 <script>
+// Ricordarsi di importare lo store
+import { store } from './store.js';
+// Se la chiamata la vogliamo fare in AppVue dobbiamo importare axios.. Quindi
+import axios from 'axios';
+// Adesso importiamo il resto dei componenti
 import LoaderComponent from './Components/LoaderComponent.vue';
 import HeaderComponent from './Components/HeaderComponent.vue';
 import SearchBarComponent from './Components/SearchBarComponent.vue';
@@ -20,6 +25,11 @@ import CardComponent from './Components/CardComponent.vue';
       SearchBarComponent,
       CardListComponent,
       CardComponent
+    },
+    data() {
+      return {
+        store
+      }
     }
   }
 </script>
