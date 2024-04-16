@@ -30,6 +30,14 @@ import CardComponent from './Components/CardComponent.vue';
       return {
         store
       }
+    },
+    created () {
+      axios
+        .get(store.apiUrl)
+        .then((response) => {
+          store.cards = response.data.data;
+          console.log(store.cards);
+        });
     }
   }
 </script>
