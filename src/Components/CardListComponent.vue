@@ -1,6 +1,6 @@
 <template>
-    <div>
-
+    <div class="container my-5 d-flex justify-content-center bg-white">
+        
     </div>
 </template>
 
