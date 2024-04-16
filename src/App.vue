@@ -2,7 +2,7 @@
   <LoaderComponent/>
   <HeaderComponent/>
   <SearchBarComponent />
-  <CardListComponent/>
+  <CardListComponent />
   <CardComponent/>
 </template>
 
